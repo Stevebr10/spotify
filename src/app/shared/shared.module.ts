@@ -5,16 +5,21 @@ import { MediaPlayerComponent } from './components/media-player/media-player.com
 import { HeaderUserComponent } from './components/header-user/header-user.component';
 
 
-
-
 @NgModule({
   declarations: [
+    //SideBarComponent, //SOLO compomentes NO standalone aqui
+    
+  ],
+  imports: [
+    CommonModule,
     SideBarComponent,
     MediaPlayerComponent,
     HeaderUserComponent
   ],
-  imports: [
-    CommonModule
+  exports:[
+    SideBarComponent,
+    MediaPlayerComponent,
+    HeaderUserComponent
   ]
 })
 export class SharedModule { }
