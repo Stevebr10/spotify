@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-side-bar',
-  standalone: true,
+  standalone: true, // Asegúrate que esto esté presente
   imports: [], // Agrega aquí otros componentes/directivas/pipes que necesites
   templateUrl: './side-bar.component.html',
   styleUrl: './side-bar.component.css'

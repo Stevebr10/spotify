@@ -8,7 +8,6 @@ import { HeaderUserComponent } from './components/header-user/header-user.compon
 @NgModule({
   declarations: [
     //SideBarComponent, //SOLO compomentes NO standalone aqui
-    
   ],
   imports: [
     CommonModule,
