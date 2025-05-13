@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common'; // Añade esta línea
 import { TrackModel } from '@core/models/tracks.model';
 import { CardPlayerComponent } from '../card-player/card-player.component';
 
+
 @Component({
   selector: 'app-section-generic',
   standalone: true, // Asegúrate que esto esté presente

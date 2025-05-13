@@ -2,6 +2,7 @@ import { Component, Input, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';  // Importa CommonModule
 import { TrackModel } from '@core/models/tracks.model';
 
+
 @Component({
   selector: 'app-card-player',
   standalone: true, // Asegúrate que esto esté presente
