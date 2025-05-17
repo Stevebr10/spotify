@@ -9,7 +9,7 @@ import { SectionGenericComponent } from '@shared/components/section-generic/sect
 
 @NgModule({
   declarations: [
-    //TracksPageComponent
+    //Declaramos si no es standalone
   ],
   imports: [
     CommonModule,

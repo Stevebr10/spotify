@@ -8,7 +8,8 @@ import { TrackModel } from '@core/models/tracks.model';
 @Component({
   selector: 'app-tracks-page',
   standalone: true, // Asegúrate que esto esté presente
-  imports: [CommonModule, SectionGenericComponent, RouterModule ], // Agrega aquí otros componentes/directivas/pipes que necesites
+  // Agrega aquí otros componentes/directivas/pipes que necesites
+  imports: [CommonModule, SectionGenericComponent, RouterModule ], 
   templateUrl: './tracks-page.component.html',
   styleUrl: './tracks-page.component.css'
 })
