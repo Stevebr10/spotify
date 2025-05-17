@@ -6,8 +6,8 @@ import { CardPlayerComponent } from '../card-player/card-player.component';
 
 @Component({
   selector: 'app-section-generic',
-  standalone: true, // Asegúrate que esto esté presente
-  imports: [CommonModule, CardPlayerComponent], // Agrega aquí otros componentes/directivas/pipes que necesites
+  standalone: true, 
+  imports: [CommonModule, CardPlayerComponent],
   templateUrl: './section-generic.component.html',
   styleUrl: './section-generic.component.css'
 })

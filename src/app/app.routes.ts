@@ -4,7 +4,7 @@ import { HomePageComponent } from '@modules/home/page/home-page/home-page.compon
 
 export const routes: Routes = [
     {
-        path: 'auth', //Cuando ponemos en vacio hacemos referencia a localhost:4200
+        path: 'auth', //Cuando ponemos una ruta hacemos referencia a localhost:4200/auth
         loadChildren: ()=>import(`./modules/auth/auth.module`).then(m=>m.AuthModule)
     },
     {
