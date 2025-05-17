@@ -1,10 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common'; // Añade esta línea
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-side-bar',
   standalone: true, // Asegúrate que esto esté presente
-  imports: [CommonModule], // Agrega aquí otros componentes/directivas/pipes que necesites
+  imports: [CommonModule, RouterModule], // Agrega aquí otros componentes/directivas/pipes que necesites
   templateUrl: './side-bar.component.html',
   styleUrl: './side-bar.component.css'
 })
@@ -23,7 +24,7 @@ export class SideBarComponent implements OnInit {
       {
         name: 'Home',
         icon: 'uil uil-estate',
-        router: ['/', 'auth']
+        router: ['/', 'auth']  
       },
       {
         name: 'Buscar',
