@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common'; // Añade esta línea
-import { RouterModule } from '@angular/router';
+import { Router, RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-side-bar',
@@ -17,7 +17,7 @@ export class SideBarComponent implements OnInit {
 
   customOptions: Array<any> = []
 
-  constructor(){}
+  constructor(private router:Router){}
 
   ngOnInit(): void {
     this.mainMenu.defaultOptions = [
@@ -75,4 +75,14 @@ export class SideBarComponent implements OnInit {
     ]
   }
 
+  goTo($event:any):void{
+    this.router.navigate(['/', 'favorites'],{
+      queryParams:{
+        key1:'valor1',
+        key2:'valor2',
+        key3:'valor3'
+      }
+    })
+    console.log($event)
+  }
 }
