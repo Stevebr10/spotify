@@ -9,7 +9,7 @@ import { HomePageComponent } from './page/home-page/home-page.component';
 
 @NgModule({
   declarations: [
-    //Si es standalone no se declara en esta seccion
+    //Si es standalone=true no se declara en esta seccion
   ],
   imports: [
     CommonModule,

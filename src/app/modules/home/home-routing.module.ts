@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomePageComponent } from './page/home-page/home-page.component';
 import { TracksModule } from '@modules/tracks/tracks.module';
 
-/*
+
 const routes: Routes = [
   {
     path: 'tracks',
@@ -19,8 +19,9 @@ const routes: Routes = [
   }
   
 ];
-*/
 
+
+/*
 const routes: Routes = [ // Renombrado para mayor claridad
   {
     path: '', // Esta es la ruta base DENTRO de HomeModule.
@@ -49,6 +50,7 @@ const routes: Routes = [ // Renombrado para mayor claridad
     ]
   }
 ];
+*/
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
