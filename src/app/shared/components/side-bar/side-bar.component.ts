@@ -21,10 +21,15 @@ export class SideBarComponent implements OnInit {
 
   ngOnInit(): void {
     this.mainMenu.defaultOptions = [
-      {
+      /*{
         name: 'Home',
         icon: 'uil uil-estate',
         router: ['/', 'auth']  
+      },*/
+      {
+        name: 'Home',
+        icon: 'uil uil-estate',
+        router: ['/']  
       },
       {
         name: 'Buscar',

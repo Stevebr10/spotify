@@ -6,14 +6,15 @@ import { RouterModule} from '@angular/router';
 
 export const routes: Routes = [
     {
-        path: 'auth', //Cuando ponemos una ruta hacemos referencia a localhost:4200/auth
-        loadChildren: ()=>import(`./modules/auth/auth.module`).then(m=>m.AuthModule)
-    },
-    {
         path: '', //Cuando ponemos en vacio hacemos referencia a localhost:4200
         component: HomePageComponent,
         loadChildren: ()=>import(`./modules/home/home.module`).then(m=>m.HomeModule)
-    }
+    },
+    {
+        path: 'auth', //Cuando ponemos una ruta hacemos referencia a localhost:4200/auth
+        loadChildren: ()=>import(`./modules/auth/auth.module`).then(m=>m.AuthModule)
+    },
+
    
 ];
 
