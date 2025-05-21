@@ -5,7 +5,7 @@ import { HistoryRoutingModule } from './history-routing.module';
 
 
 @NgModule({
-  declarations: [],
+  declarations: [], //Solo se declara cuando es standalone
   imports: [
     CommonModule,
     HistoryRoutingModule

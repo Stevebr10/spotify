@@ -12,6 +12,7 @@ import { TrackModel } from '@core/models/tracks.model';
 export class MediaPlayerComponent implements OnInit {
 
   mockCover: TrackModel = {
+    //informacion sobre la barra de progreso de la cancion 
     cover: 'https://i.scdn.co/image/ab67616d0000b27345ca41b0d2352242c7c9d4bc',
     album: 'Gioli & Assia',
     name: 'BEBE (Oficial)',

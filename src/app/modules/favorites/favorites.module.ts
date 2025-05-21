@@ -7,7 +7,7 @@ import { FavoritesPageComponent } from './pages/favorites-page/favorites-page.co
 
 
 @NgModule({
-  declarations: [],
+  declarations: [], //Solo se declara cuando es stanalone
   imports: [
     CommonModule,
     FavoritesRoutingModule,
