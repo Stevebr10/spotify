@@ -12,7 +12,7 @@ import { CardPlayerComponent } from '../card-player/card-player.component';
   styleUrl: './section-generic.component.css'
 })
 export class SectionGenericComponent implements OnInit {
-
+  //Secciones de visulizacion de canciones
   @Input() title: string = ''
   @Input() mode: 'small' | 'big' = 'big'
   @Input() dataTracks: Array<TrackModel>=[]
