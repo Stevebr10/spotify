@@ -6,7 +6,7 @@ import { PlayListBodyComponent } from '@shared/components/play-list-body/play-li
 
 @Component({
   selector: 'app-favorites-page',
-  standalone: true, // Asegúrate que esto esté presente
+  standalone: true, // En este caso es stanalone true
   imports: [CommonModule, RouterModule, PlayListHeaderComponent, PlayListBodyComponent ], 
   templateUrl: './favorites-page.component.html',
   styleUrl: './favorites-page.component.css'
