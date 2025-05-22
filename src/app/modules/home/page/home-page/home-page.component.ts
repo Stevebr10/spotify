@@ -6,7 +6,7 @@ import { SideBarComponent } from '@shared/components/side-bar/side-bar.component
 
 @Component({
   selector: 'app-home-page',
-  standalone: true, // Añadir esto
+  standalone: true, // Colocar standalone true para componentes indenpendientes 
   imports: [ SideBarComponent, MediaPlayerComponent, RouterModule],
   templateUrl: './home-page.component.html',
   styleUrl: './home-page.component.css'

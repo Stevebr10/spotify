@@ -9,7 +9,7 @@ import { SectionGenericComponent } from '@shared/components/section-generic/sect
 
 @NgModule({
   declarations: [
-    //Declaramos si no es standalone
+    //No se declara si es standalone
   ],
   imports: [
     CommonModule,

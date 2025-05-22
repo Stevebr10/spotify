@@ -5,7 +5,7 @@ import { TrackModel } from '@core/models/tracks.model';
 
 @Component({
   selector: 'app-card-player',
-  standalone: true, // Asegúrate que esto esté presente
+  standalone: true, // Colocar standalone true para compnentes indepedientes 
   imports: [CommonModule], // Agrega aquí otros componentes/directivas/pipes que necesites
   templateUrl: './card-player.component.html',
   styleUrl: './card-player.component.css'
