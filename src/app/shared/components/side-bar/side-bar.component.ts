@@ -22,6 +22,7 @@ export class SideBarComponent implements OnInit {
   //Router Link
 
   ngOnInit(): void {
+    //Rutas del side bar
     this.mainMenu.defaultOptions = [
       /*{
         name: 'Home',
@@ -29,17 +30,17 @@ export class SideBarComponent implements OnInit {
         router: ['/', 'auth']  
       },*/
       {
-        name: 'Home',
+        name: 'Home', //S redirige al localhost
         icon: 'uil uil-estate',
         router: ['/']  
       },
       {
-        name: 'Buscar',
+        name: 'Buscar',  //Se redirige al historial de canciones
         icon: 'uil uil-search',
         router: ['/', 'history']
       },
       {
-        name: 'Tu biblioteca',
+        name: 'Tu biblioteca', //Se redirige al las canciones
         icon: 'uil uil-chart',
         router: ['/', 'favorites'],
         query: { hola: 'mundo' }
