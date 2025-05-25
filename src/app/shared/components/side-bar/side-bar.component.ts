@@ -43,7 +43,7 @@ export class SideBarComponent implements OnInit {
         name: 'Tu biblioteca', //Se redirige al las canciones
         icon: 'uil uil-chart',
         router: ['/', 'favorites'],
-        query: { hola: 'mundo' }
+        //query: { hola: 'mundo' }
       }
     ]
 
@@ -77,7 +77,7 @@ export class SideBarComponent implements OnInit {
       }
     ]
   }
-
+  /*
   goTo($event:any):void{
     this.router.navigate(['/', 'favorites'],{
       queryParams:{
@@ -87,5 +87,5 @@ export class SideBarComponent implements OnInit {
       }
     })
     console.log($event)
-  }
+  }*/
 }

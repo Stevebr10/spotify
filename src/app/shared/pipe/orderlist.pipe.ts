@@ -12,7 +12,7 @@ export class OrderlistPipe implements PipeTransform {
     console.log('🎅', args)
     console.log('👩‍💻', sort)
     
-    return [];
+    return value;
   }
 
 }
