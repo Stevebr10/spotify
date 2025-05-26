@@ -23,12 +23,14 @@ export class SideBarComponent implements OnInit {
 
   ngOnInit(): void {
     //Rutas del side bar
+
     this.mainMenu.defaultOptions = [
       /*{
         name: 'Home',
         icon: 'uil uil-estate',
         router: ['/', 'auth']  
       },*/
+      // se definen los iconos en este caso como uil-"nombre del icono"
       {
         name: 'Home', //S redirige al localhost
         icon: 'uil uil-estate',

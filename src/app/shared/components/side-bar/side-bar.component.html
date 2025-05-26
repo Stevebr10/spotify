@@ -3,6 +3,7 @@
     <ul class="side-bar__list list-one">
         <!--Se modifica el [routerLink]="item.router" por el click y la funcion goTo despues se volvio-->
         <!--<li [routerLink]="item.router" [queryParams]="item.query" *ngFor="let item of mainMenu.defaultOptions">-->
+        <!--Con el ngfor se recore todos los elementos del mainMenu del componentes incluyendo iconos-->
         <li [routerLink]="item.router" *ngFor="let item of mainMenu.defaultOptions">
             <div class="list-wrapper-item">
                 <i [ngClass]="['uil',item.icon]"></i>
