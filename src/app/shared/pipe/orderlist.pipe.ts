@@ -11,7 +11,7 @@ export class OrderlistPipe implements PipeTransform {
     console.log('👉', value)
     console.log('🎅', args)
     console.log('👩‍💻', sort)
-    
+    // Se retorna value para agregar el listado de canciones
     return value;
   }
 
