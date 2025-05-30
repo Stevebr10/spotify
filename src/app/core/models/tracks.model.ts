@@ -1,5 +1,5 @@
 import { ArtistModel } from "./artist.model";
-
+/* estructura de una cancion */
 export interface TrackModel {
     name: string;
     album: string;
