@@ -6,7 +6,7 @@
 /out-tsc
 /bazel-out
 
-# Node
+# Node quitamos las carpetas mas pesadas
 /node_modules
 npm-debug.log
 yarn-error.log
