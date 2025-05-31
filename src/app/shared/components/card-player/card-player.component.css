@@ -7,7 +7,7 @@
     transition: all ease var(--animation-1);
     justify-content: space-between;
 }
-
+/*Tarjetas de canciones*/
 .card-player:hover {
     background-color: #4d4d4d;
 }
