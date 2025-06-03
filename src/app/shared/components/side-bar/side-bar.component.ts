@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common'; // Añade esta línea
 import { Router, RouterModule } from '@angular/router';
+import { TrackService } from '@modules/tracks/services/track.service';
 
 @Component({
   selector: 'app-side-bar',
@@ -17,7 +18,7 @@ export class SideBarComponent implements OnInit {
 
   customOptions: Array<any> = []
 
-  constructor(private router:Router){}
+  constructor(private router:Router, private trackService: TrackService){}
 
   //Router Link
 
@@ -34,7 +35,7 @@ export class SideBarComponent implements OnInit {
       {
         name: 'Home', //S redirige al localhost
         icon: 'uil uil-estate',
-        router: ['/']  
+        router: ['/', 'auth']  
       },
       {
         name: 'Buscar',  //Se redirige al historial de canciones
@@ -78,6 +79,17 @@ export class SideBarComponent implements OnInit {
         router: ['/']
       }
     ]
+
+    this.trackService.dataTracksRandom$
+    .subscribe((response: any) =>{
+      this.customOptions.push(
+      {
+        name: response[0].name,
+        router: []
+      }
+      )
+    })
+
   }
   /*
   goTo($event:any):void{
