@@ -25,7 +25,7 @@ body {
     font-size: var(--font-size-1);
     color: var(--color-4);
 }
-
+/*estilos generales para los botones de entrada*/
 input,
 button {
     font-family: var(--font-family-1);
