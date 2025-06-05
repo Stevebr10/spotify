@@ -60,7 +60,7 @@ export class SideBarComponent implements OnInit {
         icon: 'uil-heart-medical'
       }
     ]
-
+      //modificacion de enlaces apra las listas
     this.customOptions = [
       {
         name: 'Mi lista º1',
@@ -79,7 +79,7 @@ export class SideBarComponent implements OnInit {
         router: ['/']
       }
     ]
-
+    //Subcripcion para las listas de canciones
     this.trackService.dataTracksRandom$
     .subscribe((response: any) =>{
       this.customOptions.push(
