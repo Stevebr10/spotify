@@ -5,6 +5,7 @@ import { TracksRoutingModule } from './tracks-routing.module';
 import { TracksPageComponent } from './pages/tracks-page/tracks-page.component';
 import { SharedModule } from '@shared/shared.module';
 import { SectionGenericComponent } from '@shared/components/section-generic/section-generic.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { SectionGenericComponent } from '@shared/components/section-generic/sect
     TracksRoutingModule,
     SharedModule,
     TracksPageComponent,
+    HttpClientModule
     //SectionGenericComponent
     
   ],
