@@ -35,22 +35,7 @@ export class TracksPageComponent implements OnInit, OnDestroy{
     const {data}: any = (dataRaw as any).default
     this.mockTracksList = data;
   }
-  // ngOnInit(): void {
-  //   // const observer1$ = this.tracksServices.dataTracksTrending$
-  //   // .subscribe(response =>{
-  //   //   this.tracksTrending = response
-  //   //   this.tracksRandom = response
-  //   //   console.log('Canciones Trending -->', response);
-  //   // })
-
-  //   // const observer2$ = this.tracksServices.dataTracksRandom$
-  //   // .subscribe(response =>{
-  //   //   this.tracksRandom = [...this.tracksRandom, ...response]
-  //   //   console.log('Cancion random entrando... -->', response);
-  //   // })
-
-  //   // this.listObservers$ = [observer1$, observer2$]
-  // }
+ 
 
   ngOnDestroy(): void {
     // this.listObservers$.forEach(u=>u.unsubscribe())
