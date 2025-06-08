@@ -1,0 +1,2 @@
+Colocamos o creamos una carpeta en puclic ya que en la nueva version de angular no contamos contamos
+la carpeta assets 
