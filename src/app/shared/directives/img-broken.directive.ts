@@ -12,6 +12,7 @@ export class ImgBrokenDirective {
     const elNative = this.elHost.nativeElement;
     console.log('🔴 Esta imagen revento ->', this.elHost);
     //elNative.src='images/imgbroken.jpg'
+    //esta directiva sirve para reeemplazar una imagen en caso de no encontrarse una 
     //elNative.src='https://i.pinimg.com/736x/69/d5/3e/69d53ef9520b57a5e2af1b1387807fc7.jpg'
     elNative.src=this.customImg
   }
